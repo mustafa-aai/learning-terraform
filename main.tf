@@ -34,7 +34,7 @@ module "security-group-web" {
   ingress_cidr_blocks = ["0.0.0.0/0"]
 
   egress_rules  = ["all-all"]
-  ebsgress_cidr_blocks = ["0.0.0.0/0"]
+  egress_cidr_blocks = ["0.0.0.0/0"]
 
 }
 
